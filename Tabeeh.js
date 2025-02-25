@@ -1,6 +1,5 @@
 let countEl = document.getElementById("count-el")
 let saveEl = document.getElementById("save-el")
-
 let count = 0
 
 function increment () {
@@ -15,5 +14,5 @@ function save () {
     count = 0
 }
 function resetEntries() {
-    saveEl.textContent = "Previous entires: ";
+    saveEl.textContent = "Track-Entries: ";
 }
