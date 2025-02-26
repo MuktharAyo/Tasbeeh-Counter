@@ -13,13 +13,11 @@ body{
     font-family: "Open Sans";
     color: white;
 }
-
 @media (max-width:768px) {
     body{
         background-position: right;
     }
 }
-
 .tas{
     display: flex;
     flex-direction: column;
